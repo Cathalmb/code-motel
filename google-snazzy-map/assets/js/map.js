@@ -12,10 +12,10 @@ $(document).ready(function() {
 	    var image = 'assets/images/location-marker.png';
 	    var mapOptions = {
 	            // How zoomed in you want the map to start at (always required)
-	            zoom: 15,
+	            zoom: 12,
 	            scrollwheel: false,
 	            // The latitude and longitude to center the map (always required)
-	            center: new google.maps.LatLng(53.577390, -6.105762), // Cannes
+	            center: new google.maps.LatLng(53.349809,-6.2624431), // Cannes
 
 	            // How you would like to style the map.
 	            // This is where you would paste any style found on Snazzy Maps.
@@ -119,7 +119,7 @@ $(document).ready(function() {
 
 	        // Let's also add a marker while we're at it
 	        var marker = new google.maps.Marker({
-	            position: new google.maps.LatLng(53.577390, -6.105762),
+	            position: new google.maps.LatLng(53.349809,-6.2624431),
 	            icon: image,
 	            map: map,
 	            title: 'Google Snazzy Maps'
